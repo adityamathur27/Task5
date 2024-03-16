@@ -3,6 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="llBackground">#04146C</color>
-    <color name="textViewColor">#B8B6B6</color>
+    <color name="textViewColor">#757373</color>
     <color name="editTextColor">#FF000000</color>
 </resources>

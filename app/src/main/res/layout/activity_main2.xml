@@ -100,6 +100,7 @@
     <TextView
         android:id="@+id/personalInformation"
         android:text="Personal Information"
+        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="20dp"
@@ -112,6 +113,7 @@
     <LinearLayout
         android:id="@+id/first"
         android:layout_width="350dp"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/personalInformation"
         app:layout_constraintLeft_toLeftOf="parent"
         android:orientation="horizontal"
@@ -123,11 +125,13 @@
         <TextView
             android:text="Name :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="120dp"
             android:text="Kartik Russel"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -136,6 +140,7 @@
         android:layout_width="350dp"
         app:layout_constraintTop_toBottomOf="@id/first"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
         android:padding="5dp"
@@ -144,6 +149,7 @@
         android:layout_height="wrap_content">
         <TextView
             android:text="Date of Birth :"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -151,6 +157,7 @@
             android:layout_marginStart="79dp"
             android:text="08-Oct-2001"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
@@ -160,6 +167,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
+        android:textColor="@color/black"
         android:padding="5dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/border_background"
@@ -167,12 +175,14 @@
         <TextView
             android:text="Gender :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="110dp"
             android:text="Male"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
@@ -183,17 +193,20 @@
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
         android:padding="5dp"
+        android:textColor="@color/black"
         android:layout_marginStart="20dp"
         android:background="@drawable/border_background"
         android:layout_height="wrap_content">
         <TextView
             android:text="Email :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="120dp"
             android:text="nik@gmail.com"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -206,15 +219,18 @@
         android:layout_marginTop="10dp"
         android:padding="5dp"
         android:layout_marginStart="20dp"
+        android:textColor="@color/black"
         android:background="@drawable/border_background"
         android:layout_height="wrap_content">
         <TextView
             android:text="Phone :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="115dp"
+            android:textColor="@color/black"
             android:text="8975053147"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -228,10 +244,12 @@
         android:layout_marginTop="10dp"
         android:padding="5dp"
         android:layout_marginStart="20dp"
+        android:textColor="@color/black"
         android:background="@drawable/border_background"
         android:layout_height="wrap_content">
         <TextView
             android:text="Local Address :"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -239,6 +257,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="65dp"
+            android:textColor="@color/black"
             android:text="98927 Alexis Landing west Lourdes,De 08534" />
     </LinearLayout>
     <LinearLayout
@@ -249,17 +268,20 @@
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
         android:padding="5dp"
+        android:textColor="@color/black"
         android:layout_marginStart="20dp"
         android:background="@drawable/border_background"
         android:layout_height="wrap_content">
         <TextView
             android:text="Permanent Address :"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="30dp"
             android:text="5203 king way north May, IL 32320"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -272,6 +294,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/seventh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -282,6 +305,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
+        android:textColor="@color/black"
         android:padding="5dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/border_background"
@@ -289,11 +313,13 @@
         <TextView
             android:text="Job Title :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="115dp"
             android:text="Full Stack Developer"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -306,17 +332,20 @@
         android:layout_marginTop="10dp"
         android:padding="5dp"
         android:layout_marginStart="20dp"
+        android:textColor="@color/black"
         android:background="@drawable/border_background"
         android:layout_height="wrap_content">
         <TextView
             android:text="Department :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="95dp"
+            android:textColor="@color/black"
             android:text="IT Depertment" />
     </LinearLayout>
     <LinearLayout
@@ -327,18 +356,21 @@
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
         android:padding="5dp"
+        android:textColor="@color/black"
         android:layout_marginStart="20dp"
         android:background="@drawable/border_background"
         android:layout_height="wrap_content">
         <TextView
             android:text="Employment Status :"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_marginStart="45dp"
             android:text="Active"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 

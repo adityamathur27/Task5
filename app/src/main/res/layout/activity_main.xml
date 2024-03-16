@@ -94,7 +94,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="170dp"
         android:text="Name"
-        android:textColor="@color/textViewColor"
+         android:textColor="@color/textViewColor"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,6 +102,7 @@
         android:id="@+id/etName"
         android:layout_width="350dp"
         android:layout_height="38dp"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/tvName"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginStart="12dp"
@@ -123,6 +124,7 @@
         android:layout_height="40dp"
         app:layout_constraintTop_toBottomOf="@id/tvJobTitle"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         android:text="Full Stack Developer"/>
     <TextView
@@ -142,6 +144,7 @@
         android:layout_height="38dp"
         app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         android:text="8975053147"/>
     <TextView
@@ -161,6 +164,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvShiftTime"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="12dp"
+        android:textColor="@color/black"
         android:text="8:00 AM to 6:00 PM"
         android:layout_height="wrap_content" />
     <TextView
@@ -180,6 +184,7 @@
         android:layout_height="38dp"
         app:layout_constraintTop_toBottomOf="@+id/tvnickName"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         android:text="Sonu"/>
     <TextView
@@ -199,6 +204,7 @@
         android:layout_height="38dp"
         app:layout_constraintTop_toBottomOf="@+id/tvEmail"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         android:text="nik@gmail.com"/>
     <TextView
@@ -217,6 +223,7 @@
         android:layout_width="350dp"
         app:layout_constraintTop_toBottomOf="@+id/tvdepartment"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         android:text="IT Department"
         android:layout_height="wrap_content"/>
@@ -236,6 +243,7 @@
         android:layout_width="350dp"
         app:layout_constraintTop_toBottomOf="@+id/tvhiredDate"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         android:text="12-20-2023"
         android:layout_height="wrap_content"/>
@@ -255,6 +263,7 @@
         android:id="@+id/etGender"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_marginLeft="12dp"
         app:layout_constraintTop_toBottomOf="@id/tvGender"
         android:text="Male"
