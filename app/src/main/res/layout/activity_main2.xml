@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/llSecond"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#04146C"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/notification" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/baseline_add_circle_outline_24"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/llSecond" />
+
+    <View
+        android:id="@+id/borderLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="155dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:text="Kartik Russel"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/llSecond" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="6dp"
+        android:text="Full Stack Developer"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <TextView
+        android:id="@+id/personalInformation"
+        android:text="Personal Information"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/borderLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/personalInformation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Name :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="120dp"
+            android:text="Kartik Russel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/first"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Date of Birth :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="79dp"
+            android:text="08-Oct-2001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/second"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Gender :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="110dp"
+            android:text="Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fourth"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/third"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Email :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="120dp"
+            android:text="nik@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fifth"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/fourth"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Phone :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="115dp"
+            android:text="8975053147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sixth"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/fifth"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Local Address :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:text="98927 Alexis Landing west Lourdes,De 08534" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/seventh"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/sixth"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Permanent Address :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="30dp"
+            android:text="5203 king way north May, IL 32320"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/companyDetails"
+        android:text="Company Details"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/jobtitle"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/companyDetails"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Job Title :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="115dp"
+            android:text="Full Stack Developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/department"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/jobtitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Department :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:text="IT Depertment" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/status"
+        android:layout_width="350dp"
+        app:layout_constraintTop_toBottomOf="@id/department"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Employment Status :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="45dp"
+            android:text="Active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
